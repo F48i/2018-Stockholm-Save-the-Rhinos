@@ -1,1 +1,4 @@
 
+[submodule "raspicam-facedetect-cpp"]
+	path = raspicam-facedetect-cpp
+	url = https://github.com/F48i/raspicam-facedetect-cpp
