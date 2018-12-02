@@ -25,6 +25,17 @@ https://github.com/andygrove/raspicam-facedetect-cpp
 5.) Small changes for OpenCV4 (fork of the project above)
 https://github.com/F48i/raspicam-facedetect-cpp
 
+Build and run raspicam-facedetection-cpp
+./build.sh
+
+$ ./opencv_example --cascade="/home/pi/Downloads/opencv/data/haarcascades/haarcascade_frontalface_alt.xml" --nested-cascade="/home/pi/Downloads/opencv/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml" --scale=1.3
+
+or
+
+$ ./opencv_example --cascade="/home/pi/Downloads/opencv/data/haarcascades/haarcascade_frontalface_alt.xml" --scale=1.3
+
+Note might need to fix some install paths ;-)
+
 Languages used: C++
 
 Team members: Fabian Kunkel, Carmen Beltran
